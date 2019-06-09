@@ -1,0 +1,30 @@
+#intro {
+  .intro-content {
+    h2 {
+      color: #50d8af;
+      span {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#main {
+  #services {
+    .section-header {
+      h2 {
+        text-align: right;
+        font-size: 26px;
+        &::before {
+          right: 0;
+          left: auto;
+        }
+      }
+      p {
+        text-align: right;
+        font-size: 20px;
+      }
+    }
+  }
+}
