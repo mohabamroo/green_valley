@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 declare var $: any;
 @Component({
-  selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrls: ['./home-page.component.scss']
+  selector: 'app-about-us',
+  templateUrl: './about-us.component.html',
+  styleUrls: ['./about-us.component.scss']
 })
-export class HomePageComponent implements OnInit {
+export class AboutUsComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {

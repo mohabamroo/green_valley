@@ -1,0 +1,41 @@
+#intro {
+  /* FIXME: home background image */
+  background: url('../../assets/img/turb.png') no-repeat;
+  background-size: cover;
+}
+
+#about {
+  padding-top: 40px;
+}
+
+.section-header {
+  text-align: right;
+}
+
+.section-header h2::before {
+  right: 0;
+  left: unset;
+}
+
+.section-body {
+  text-align: center;
+  img {
+    height: 300px;
+  }
+  p {
+    color: #333;
+    font-size: 12px;
+  }
+}
+
+
+#about-flex {
+    display: flex;
+    p {
+        padding: 10px;
+        padding-left: 30px;
+    }
+    img {
+
+    }
+}
