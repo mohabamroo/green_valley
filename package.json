@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "deploy": "ng build --prod --base-href greenwave-egy.com && angular-cli-ghpages --branch  gh-pages --dir=dist/green-wave --no-silent",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
