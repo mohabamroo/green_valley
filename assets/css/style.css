@@ -523,7 +523,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 3px;
   background: #50d8af;
   bottom: 0;
-  left: 0;
+  right: 0;
 }
 
 .section-header p {
