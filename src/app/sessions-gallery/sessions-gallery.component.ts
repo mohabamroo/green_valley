@@ -6,7 +6,7 @@ import { Lightbox } from 'ngx-lightbox';
   styleUrls: ['./sessions-gallery.component.scss']
 })
 export class SessionsGalleryComponent implements OnInit {
-  private _albums = [];
+  public _albums = [];
   constructor(private _lightbox: Lightbox) {
     for (let i = 1; i <= 8; i++) {
       const src = './assets/img/session/' + i + '.jpg';
