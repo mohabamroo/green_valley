@@ -24,9 +24,7 @@
   <div class="container">
     <div id="logo" class="pull-left">
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="#body"
-        ><img src="./assets/img/greenvaly_logo.jpg" alt="" title=""
-      /></a>
+      <a href="#body"><img src="./assets/img/greenvaly_logo.jpg"/></a>
     </div>
 
     <nav id="nav-menu-container">
@@ -35,6 +33,7 @@
           <a
             routerLinkActive="menu-active"
             [routerLink]="['/']"
+            [routerLinkActiveOptions]="{ exact: true }"
             [queryParams]="{ anchor: 'intro' }"
             >الرئـيسية</a
           >
@@ -42,6 +41,7 @@
         <li>
           <a
             routerLinkActive="menu-active"
+            [routerLinkActiveOptions]="{ exact: true }"
             [queryParams]="{ anchor: 'about' }"
             [routerLink]="['/']"
             >عن شركتنا</a
@@ -51,6 +51,7 @@
           <a
             routerLinkActive="menu-active"
             [routerLink]="['/about-us']"
+            [routerLinkActiveOptions]="{ exact: true }"
             [queryParams]="{ anchor: 'intro' }"
             >من نحن</a
           >
@@ -58,9 +59,19 @@
         <li>
           <a
             routerLinkActive="menu-active"
+            [routerLinkActiveOptions]="{ exact: true }"
             [queryParams]="{ anchor: 'contact' }"
             [routerLink]="['/']"
             >اتصل بـنا</a
+          >
+        </li>
+        <li>
+          <a
+            routerLinkActive="menu-active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            [queryParams]="{ anchor: 'contact' }"
+            [routerLink]="['/gallery']"
+            >برنامج التوعية</a
           >
         </li>
       </ul>

@@ -28,14 +28,18 @@
   }
 }
 
+section {
+  p {
+    max-width: 850px;
+  }
+}
 
 #about-flex {
-    display: flex;
-    p {
-        padding: 10px;
-        padding-left: 30px;
-    }
-    img {
-
-    }
+  display: flex;
+  p {
+    padding: 10px;
+    padding-left: 30px;
+  }
+  img {
+  }
 }

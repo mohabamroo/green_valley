@@ -1,0 +1,12 @@
+<div class="container" dir="rtl">
+  <div class="section-header">
+    <h2>بعض الصــور</h2>
+  </div>
+  <div class="img-wrapper">
+    <img
+      *ngFor="let image of _albums; let i = index"
+      [src]="image.thumb"
+      (click)="open(i)"
+    />
+  </div>
+</div>

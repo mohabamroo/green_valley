@@ -7,3 +7,16 @@
   /* background-image: url("./assets/img/sringes.jpg") no-repeat; */
 }
 
+
+#header {
+  height: 100px;
+  padding: 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  a img {
+    height: 100px;
+  }
+}

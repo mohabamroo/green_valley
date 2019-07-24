@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app.routing';
 import { Routes, RouterModule } from '@angular/router';
 import { APP_BASE_HREF } from '@angular/common';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { SessionsGalleryComponent } from './sessions-gallery/sessions-gallery.component';
+import { LightboxModule } from 'ngx-lightbox';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
     HeaderComponent,
     FooterComponent,
     HomePageComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    SessionsGalleryComponent
   ],
-  imports: [BrowserModule, RouterModule, AppRoutingModule],
+  imports: [BrowserModule, RouterModule, AppRoutingModule, LightboxModule],
   providers: [{ provide: APP_BASE_HREF, useValue: '/' }],
   bootstrap: [AppComponent]
 })
