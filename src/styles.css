@@ -1,3 +1,7 @@
 a.menu-active {
   color: #50d8af;
 }
+
+.header-sticky-wrapper {
+  height: auto;
+}

@@ -1,15 +1,24 @@
-#logo img {
-  height: 50px;
-  margin-top: -5px;
+#logo {
+  h2 {
+    color: #50d8af;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    span {
+      text-decoration: underline;
+    }
+  }
+  img {
+    height: 50px;
+    margin-top: -5px;
+  }
 }
-
 #intro {
   /* background-image: url("./assets/img/sringes.jpg") no-repeat; */
 }
 
-
 #header {
-  height: 100px;
+  height: auto;
   padding: 0;
   .container {
     display: flex;
