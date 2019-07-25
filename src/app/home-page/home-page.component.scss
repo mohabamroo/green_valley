@@ -23,21 +23,13 @@
     }
   }
 }
-.section-body {
-  text-align: center;
-  img {
-    height: 400px;
-  }
-  p {
-    color: #333;
-    font-size: 12px;
-  }
-}
+
 #contact {
   text-align: right;
 }
 
 .section-header {
+  text-align: right;
   h2 {
     text-align: right;
     font-size: 26px;
@@ -59,28 +51,14 @@ section {
     list-style: none;
     padding: 0;
   }
+  p {
+    max-width: 800px;
+  }
 }
-input::placeholder, textarea::placeholder {
+
+input::placeholder,
+textarea::placeholder {
   text-align: right;
-}
-
-#intro {
-  /* FIXME: home background image */
-  background: url('../../assets/img/turb.png') no-repeat;
-  background-size: cover;
-}
-
-#about {
-  padding-top: 40px;
-}
-
-.section-header {
-  text-align: right;
-}
-
-.section-header h2::before {
-  right: 0;
-  left: unset;
 }
 
 .section-body {
@@ -94,18 +72,10 @@ input::placeholder, textarea::placeholder {
   }
 }
 
-section {
-  p {
-    max-width: 850px;
-  }
-}
-
 #about-flex {
   display: flex;
   p {
     padding: 10px;
     padding-left: 30px;
-  }
-  img {
   }
 }
