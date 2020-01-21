@@ -13,6 +13,9 @@
   animation-fill-mode: both;
 }
 
+
+
+
 .animated.infinite {
   animation-iteration-count: infinite;
 }
